@@ -1,0 +1,55 @@
+# =========================
+# .NET / Blazor - .gitignore
+# =========================
+
+# Pastas de build
+bin/
+obj/
+
+# Arquivos de usuário do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Pastas do Visual Studio
+.vs/
+.vscode/
+
+# Arquivos de publicação
+publish/
+**/publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/
+!**/packages/build/
+nuget.config
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários do sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Arquivos de configuração sensíveis (senhas, secrets)
+appsettings.Development.json
+secrets.json
+*.pfx
+*.p12
+
+# Cobertura de testes
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
